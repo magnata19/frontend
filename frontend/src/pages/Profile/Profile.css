@@ -1,0 +1,67 @@
+#profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  border-bottom: 1px solid #363636;
+}
+
+.profile-header img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+.new-photo {
+  padding: 1em;
+  border-bottom: 1px solid #363636;
+}
+
+.photos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 32%;
+  margin: 0.3%;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions svg {
+  font-size: 20px;
+    cursor: pointer;
+}
+
+.svg-container {
+  padding: 5px 10px;
+}
+
+.svg-container a:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+  color: #0094f6;
+}
+
+.edit-photo {
+  margin-bottom: 1em;
+}
+
+.edit-photo img {
+  width: 100%;
+  margin-bottom: 1em;
+}

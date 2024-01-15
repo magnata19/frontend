@@ -1,0 +1,25 @@
+#footer {
+  background-color: #121212;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #363636;
+}
+
+.my-name{
+  color: #aaa;
+  font-size: 10px;
+}
+
+.social-network a {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0 6px;
+}
+
+.social-network a:hover {
+color: #fff;
+transition: .2s;
+}
