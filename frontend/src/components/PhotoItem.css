@@ -13,3 +13,7 @@
 .photo-author a {
   font-weight: bold;
 }
+
+@media (width < 650px) {
+  
+}

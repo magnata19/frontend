@@ -65,3 +65,10 @@
   width: 100%;
   margin-bottom: 1em;
 }
+
+@media(width < 650px) {
+  #profile {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
